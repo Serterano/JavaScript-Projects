@@ -9,6 +9,8 @@ let num = document.getElementById("var-el");
 
 let query ="";
 
+//all functions should be assigned to buttons as onclick
+//<button onclick="getNumber">Choose As A Number</button>
 function getNumber(){
     choosens.textContent += num.value+"";
     num.value="";
