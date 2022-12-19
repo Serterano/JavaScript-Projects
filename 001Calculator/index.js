@@ -1,8 +1,12 @@
-let choosens = document.getElementById("choosen");
-let resultParagraph = document.getElementById("resultParagraph");
-let num = document.getElementById("var-el");
 //choose number whatever you want and add your expression using buttons
 //after then u can execute the query.
+//<p id="choosen">
+let choosens = document.getElementById("choosen");
+//<p id="resultParagraph">
+let resultParagraph = document.getElementById("resultParagraph");
+//we just need 1 input element <input type=number id="var-el">
+let num = document.getElementById("var-el");
+
 let query ="";
 
 function getNumber(){
